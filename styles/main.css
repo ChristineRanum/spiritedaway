@@ -1,6 +1,5 @@
-
-@import "styles/front.css";
-@import "styles/trailersome.css";
+@import "front.css";
+@import "trailersome.css";
 
 * {
     box-sizing: border-box;
