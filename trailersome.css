@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(142, 213, 241);
+}
+
+.trailer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.trailer iframe {
+    border-radius: 5% 5% 5% 5%;
+}
+
+.trailer img {
+    width: 15vw;
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 10% 10% 10% 10%;
+    transition: all .2s ease-in-out;
+}
+
+.trailer img:hover {
+    transform: scale(1.1);
+}
+
+.logolinks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.logolinks_item {
+    width: 10vh;
+}
