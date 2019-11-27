@@ -7,3 +7,10 @@
 body {
     background-color: #96dede;
 }
+
+.front__img{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 60vw;
+}
