@@ -1,3 +1,7 @@
+
+@import "styles/front.css";
+@import "styles/trailersome.css";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,11 +10,4 @@
 
 body {
     background-color: #96dede;
-}
-
-.front__img{
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 60vw;
 }
